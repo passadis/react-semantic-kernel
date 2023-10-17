@@ -1,7 +1,7 @@
 version: '3'
 services:
   frontend:
-    image: azcont1.azurecr.io/frontend:v10
+    image: xxxxxxxxxx.azurecr.io/frontend:v10
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,7 +10,7 @@ services:
       - "80:80"
     
   backend:
-    image: azcont1.azurecr.io/backend:v10
+    image: xxxxxxxxxxx.azurecr.io/backend:v10
     build:
       context: ../backend
       dockerfile: Dockerfile
