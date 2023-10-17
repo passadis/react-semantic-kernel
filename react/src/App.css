@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e0f7fa;
+  color: #00796b;
+}
+
+.navbar {
+  background-color: #00796b;
+  padding: 1rem;
+}
+
+.navbar a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+
+.home, .tutorials {
+  padding: 2rem;
+  background-color: white;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.navbar-icon {
+  height: 50px;
+  margin-right: 30%;
+}
+
+.content-sections {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tutorials, .quizzes {
+  width: 30%;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.tutorial-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;  /* Add this line */
+}
+
+.tutorial-link {
+  display: block;
+  background-color: #00796b;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.tutorial-link:hover {
+  background-color: #004d40;
+}
+
+.quizzes-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 400px;  /* Add this line */
+}
+
+.quizzes-link {
+  display: block;
+  background-color: #00796b;
+  color: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.quizzes-link:hover {
+  background-color: #004d40;
+}
+
+.profile-container {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  padding: 2rem;
+  max-width: 800px; 
+}
+
+.profile-link {
+  display: block;
+  background-color: #00796b;
+  color: white;
+  padding: 10px;
+  border-radius: 25px;
+  text-decoration: none;
+}
+
+.profile-link:hover {
+  background-color: #004d40;
+}
+
+.response {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin-top: 16px;
+  border-radius: 8px;
+}
+
+.response pre {
+  font-family: Arial, sans-serif;
+  white-space: -o-pre-wrap;
+  white-space: -moz-pre-wrap;  
+  white-space: -pre-wrap;      
+  white-space: pre-wrap;     
+  word-wrap: break-word;       
+}
