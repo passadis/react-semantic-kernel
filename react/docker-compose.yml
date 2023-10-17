@@ -1,0 +1,22 @@
+version: '3'
+services:
+  frontend:
+    image: azcont1.azurecr.io/frontend:v10
+    build:
+      context: .
+      dockerfile: Dockerfile
+      
+    ports:
+      - "80:80"
+    
+  backend:
+    image: azcont1.azurecr.io/backend:v10
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    ports:
+      - "5000:5000"
+    environment:
+      - QUART_ENV=development
+    command: uvicorn app:app --host 0.0.0.0 --port 5000
+
