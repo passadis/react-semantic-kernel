@@ -7,4 +7,3 @@ python-dotenv==1.0.0
 quart_cors==0.7.0
 Gunicorn==21.2.0
 uvicorn==0.15.0
-roughrider.cors==0.1
