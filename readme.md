@@ -1,4 +1,11 @@
-# Semantic Kernel with Azure Open AI Chat Implementation
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=azure,react,py,docker,terraform,vscode" />
+  </a>
+</p>
+
+<h1 align="center">Semantic Kernel with Azure Open AI Chat Implementation</h1>
+
 
 ## Project Overview
 
@@ -33,6 +40,7 @@ To make the most of this solution, here are the prerequisites:
 ## Contribute
 
 We encourage contributions! If you have ideas on how to improve this application or want to report a bug, please feel free to open an issue or submit a pull request.
+
 
 ## Architecture
 
