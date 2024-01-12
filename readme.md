@@ -37,6 +37,8 @@ To make the most of this solution, here are the prerequisites:
 
 3. **Clone the Repository**: Get started by cloning this repository to your local environment.
 
+4. **Follow the Blog for Detailed Instructions**: For step-by-step guidance, visit [Semantic Kernel: Container Apps with React and Python](https://www.cloudblogger.eu/2023/10/18/semantic-kernel-container-apps-with-react-and-python/).
+
 ## Contribute
 
 We encourage contributions! If you have ideas on how to improve this application or want to report a bug, please feel free to open an issue or submit a pull request.
