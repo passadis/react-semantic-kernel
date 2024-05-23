@@ -6,9 +6,9 @@ quart==0.19.2
 python-dotenv==1.0.0
 semantic-kernel==0.3.10.dev0
 openai==0.27.8  # Update to the latest version
-jinja2==3.1.2
+jinja2==3.1.4
 python-dotenv==1.0.0
 quart_cors==0.4.0
-Gunicorn==21.2.0
+Gunicorn==22.0.0
 uvicorn==0.15.0
 azure-functions==1.7.2
