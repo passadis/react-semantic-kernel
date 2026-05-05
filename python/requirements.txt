@@ -1,9 +1,9 @@
 quart==0.19.7
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 semantic-kernel==1.39.3
 openai==0.27.8  # Update to the latest version
 jinja2==3.1.6
-python-dotenv==1.0.0
+python-dotenv==1.2.2
 quart_cors==0.7.0
 Gunicorn==22.0.0
 uvicorn==0.15.0
